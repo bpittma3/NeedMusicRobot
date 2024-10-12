@@ -6,3 +6,6 @@ requests
 asgiref
 deezer-python
 spotipy
+yt_dlp==2024.09.27
+python-dotenv
+https://github.com/coletdjnz/yt-dlp-youtube-oauth2/archive/refs/heads/master.zip
