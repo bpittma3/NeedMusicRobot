@@ -51,7 +51,7 @@ client = spotipy.Spotify(
 async def spotify_dl(_, message):
     link = message.matches[0].group(0)
     m = await message.reply_text(
-        f"**Gathering info from your [link]({link}).**"
+        f"**Récupération des informations de votre [lien]({link}).**"
     )
     try:
         parsed_item = await parse_spotify_url(link)
